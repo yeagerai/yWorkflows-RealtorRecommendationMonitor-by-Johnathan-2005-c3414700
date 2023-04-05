@@ -1,0 +1,8 @@
+description: A Yeager Component designed to monitor and process realtor recommendation
+  requests from users by taking input from Facebook groups and messaging platforms.
+  It uses the input configurations like Facebook API credentials, targeted Facebook
+  groups, messaging platform credentials, and Melissa API credentials to authenticate
+  and fetch the data. It then filters and extracts the relevant information about
+  the person looking for a realtor recommendation, such as their name and phone number.
+name: RealtorRecommendationMonitor
+parameters: {}
