@@ -4,5 +4,7 @@ description: A Yeager Component designed to monitor and process realtor recommen
   groups, messaging platform credentials, and Melissa API credentials to authenticate
   and fetch the data. It then filters and extracts the relevant information about
   the person looking for a realtor recommendation, such as their name and phone number.
+input-class: UserConfigurations
 name: RealtorRecommendationMonitor
+output-class: MessageInfo
 parameters: {}
