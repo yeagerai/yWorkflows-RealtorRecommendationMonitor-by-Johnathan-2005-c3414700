@@ -2,7 +2,9 @@ description: This component monitors targeted Facebook groups for posts mentioni
   a realtor or real estate agent using the stored Facebook API credentials. It continuously
   scans the groups for new posts and filters the ones that request recommendations
   or information about realtors, assisting users in finding potential clients.
+input-class: MonitorFacebookGroupsInputDict
 name: MonitorFacebookGroups
+output-class: MonitorFacebookGroupsOutputDict
 parameters:
   keywords: '[''realtor'', ''real estate agent'']'
   monitoring_interval: '60'
