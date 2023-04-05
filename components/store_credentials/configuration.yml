@@ -1,0 +1,8 @@
+description: A component that receives the Facebook API credentials, targeted groups,
+  messaging platform credentials, and Melissa API credentials from the UserConfigurations
+  input and saves them to the browser plugin's local storage. This component allows
+  stored credentials and configurations to be reused across multiple sessions and
+  workflows.
+name: StoreCredentials
+parameters:
+  localStorageKey: yeager_credentials
