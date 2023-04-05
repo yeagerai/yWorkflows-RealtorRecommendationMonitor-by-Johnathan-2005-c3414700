@@ -3,6 +3,8 @@ description: A component that receives the Facebook API credentials, targeted gr
   input and saves them to the browser plugin's local storage. This component allows
   stored credentials and configurations to be reused across multiple sessions and
   workflows.
+input-class: UserConfigurations
 name: StoreCredentials
+output-class: StoredCredentials
 parameters:
   localStorageKey: yeager_credentials
